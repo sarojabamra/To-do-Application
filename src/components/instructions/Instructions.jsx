@@ -45,6 +45,7 @@ const Instructions = () => {
                 followed by medium and low priority tasks.
               </li>
             </ul>
+            <p>Add a feature to add sub-tasks.</p>
           </div>
         </div>
       </div>
