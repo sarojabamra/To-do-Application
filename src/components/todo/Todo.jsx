@@ -176,7 +176,9 @@ const Todo = () => {
                       </div>
                       <div className="col2">
                         <FaStar
-                          className="imp icon"
+                          className={`imp icon ${
+                            todo.isImportant ? "icon2" : ""
+                          }`}
                           onClick={() => markImportant(index)}
                         />
 

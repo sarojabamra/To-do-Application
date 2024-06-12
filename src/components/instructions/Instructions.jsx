@@ -28,8 +28,12 @@ const Instructions = () => {
             <p className="intro">
               Add an Edit functionality to edit the tasks.
             </p>
-            <p className="intro">Add a Priority feature [OPTIONAL]:</p>
+            <p className="intro">Add a Priority feature:</p>
             <ul>
+              <li>
+                Make a dropdown-list through which a user can select the
+                priority of the task.
+              </li>
               <li>
                 The priority levels should include "High Priority," "Medium
                 Priority," and "Low Priority."
