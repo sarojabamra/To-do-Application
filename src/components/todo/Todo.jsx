@@ -209,7 +209,10 @@ const Todo = () => {
                           </div>
                         </div>
                         <div className="col2">
-                          <FaStar className="imp icon2" />
+                          <FaStar
+                            className="imp icon2"
+                            onClick={() => markImportant(index)}
+                          />
                           <MdDelete
                             className="dlt icon"
                             onClick={() => deleteTask(index)}
