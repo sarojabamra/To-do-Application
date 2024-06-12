@@ -17,7 +17,6 @@ Implement a feature that allows users to create sub-tasks under each main task f
 ## How to Contribute
 
 - Fork the repository if you haven't already.
-- Create a new branch for each task you are working on.
 - Commit your changes with descriptive messages.
 - Push your changes to your forked repository.
 - Create a pull request to the main repository when your task is complete.
